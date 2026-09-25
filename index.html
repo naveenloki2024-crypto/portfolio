@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta -->
+  <title>S. Navaneethan | Full-Stack Developer Portfolio</title>
+  <meta name="description" content="Portfolio of S. Navaneethan, a B.E. Electronics and Communication Engineering student interested in full-stack web development and software technologies." />
+  <meta name="author" content="S. Navaneethan" />
+  <meta name="theme-color" content="#F4E3B2" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="S. Navaneethan | Full-Stack Developer Portfolio" />
+  <meta property="og:description" content="Portfolio of S. Navaneethan, a B.E. Electronics and Communication Engineering student interested in full-stack web development and software technologies." />
+  <meta property="og:type" content="website" />
+
+  <!-- Favicon (inline, no external asset) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23596B98'/%3E%3Ctext x='50' y='68' font-family='Arial, sans-serif' font-size='48' font-weight='bold' fill='%23F4E3B2' text-anchor='middle'%3ESN%3C/text%3E%3C/svg%3E" />
+
+  <!-- Fonts: Bebas Neue (display) + Archivo (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Bebas+Neue&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Accessibility: skip link -->
+  <a class="skip-link" href="#home">Skip to main content</a>
+
+  <!-- ============================================================
+       01. NAVIGATION
+  ============================================================ -->
+  <header class="site-header" id="site-header">
+    <div class="nav-bar container">
+      <a href="#home" class="logo" aria-label="S. Navaneethan — home">
+        <span class="logo-mark" aria-hidden="true">SN</span>
+        <span class="logo-text">S. Navaneethan</span>
+      </a>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certification" class="nav-link">Certificates</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary nav-cta">Let's Connect</a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================================================
+         02. HERO
+    ============================================================ -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-copy">
+          <p class="hero-eyebrow reveal">
+            <span class="eyebrow-no">01</span>
+            <span class="eyebrow-line"></span>
+            B.E. Electronics &amp; Communication Engineering
+          </p>
+
+          <h1 class="hero-title">
+            <span class="hero-line hero-line-1">Hello,</span>
+            <span class="hero-line hero-line-2">I'm</span>
+            <span class="hero-line hero-line-3">Navaneethan.s</span>
+          </h1>
+
+          <p class="hero-intro">
+            Electronics and Communication Engineering student with an interest in
+            full-stack web development and software technologies.
+          </p>
+
+          <ul class="hero-meta">
+            <li>The Kavery Engineering College</li>
+            <li>Salem, Tamil Nadu, India</li>
+          </ul>
+
+          <!-- Technical focus -->
+          <p class="hero-focus-label">Technical Focus</p>
+          <ul class="hero-focus" aria-label="Technical focus">
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Spring Boot</li>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+            <li>PostgreSQL</li>
+          </ul>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-dark">View My Work</a>
+            <a href="assets/resume.pdf" download class="btn btn-outline">Download Resume</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <figure class="profile-frame">
+            <img
+              src="assets/profile.jpeg"
+              alt="Portrait of S. Navaneethan"
+              class="profile-img"
+            />
+            <figcaption class="profile-caption">Full-Stack Developer &amp; ECE Student</figcaption>
+          </figure>
+          <span class="hero-badge hero-badge-top" aria-hidden="true">ECE</span>
+          <span class="hero-badge hero-badge-bottom" aria-hidden="true">2027</span>
+        </div>
+
+      </div>
+
+      <div class="hero-strip" aria-hidden="true">
+        <div class="hero-strip-track">
+          <span>Full-Stack Development&nbsp;•&nbsp;</span>
+          <span>Software Technologies&nbsp;•&nbsp;</span>
+          <span>Reliability Testing&nbsp;•&nbsp;</span>
+          <span>Clean Interfaces&nbsp;•&nbsp;</span>
+          <span>Full-Stack Development&nbsp;•&nbsp;</span>
+          <span>Software Technologies&nbsp;•&nbsp;</span>
+          <span>Reliability Testing&nbsp;•&nbsp;</span>
+          <span>Clean Interfaces&nbsp;•&nbsp;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         03. ABOUT ME
+    ============================================================ -->
+    <section class="section about" id="about">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label"><span class="label-no">02</span> About Me</p>
+          <h2 class="section-title">About Me.</h2>
+        </header>
+
+        <div class="about-grid">
+          <div class="about-statement reveal">
+            <p>
+              I'm an Electronics and Communication Engineering student at
+              The Kavery Engineering College, set to graduate in 2027.
+            </p>
+            <p>
+              I'm fascinated by how software works from the interface down to the
+              database. I enjoy building clean, responsive, full-stack applications
+              and continuously deepening my knowledge of web technologies.
+            </p>
+            <p>
+              During a 30-day internship at Gilbarco Veeder-Root, I gained hands-on
+              exposure to software reliability testing &mdash; learning how engineering
+              teams verify that software performs consistently in real product
+              environments.
+            </p>
+            <p>
+              My focus is full-stack development &mdash; from frontend interfaces to
+              backend services and data management &mdash; along with a growing foundation
+              in software technologies.
+            </p>
+            <p class="about-signature">S. Navaneethan</p>
+          </div>
+
+          <div class="about-cards">
+            <article class="info-card reveal">
+              <h3 class="info-label">Name</h3>
+              <p class="info-value">S. Navaneethan</p>
+            </article>
+            <article class="info-card reveal">
+              <h3 class="info-label">Degree</h3>
+              <p class="info-value">B.E. Electronics &amp; Communication Engineering</p>
+            </article>
+            <article class="info-card reveal">
+              <h3 class="info-label">College</h3>
+              <p class="info-value">The Kavery Engineering College</p>
+            </article>
+            <article class="info-card reveal">
+              <h3 class="info-label">Location</h3>
+              <p class="info-value">Salem, Tamil Nadu, India</p>
+            </article>
+            <article class="info-card reveal">
+              <h3 class="info-label">Expected Graduation</h3>
+              <p class="info-value">2027</p>
+            </article>
+            <article class="info-card reveal">
+              <h3 class="info-label">Area of Interest</h3>
+              <p class="info-value">Full-Stack Development &amp; Software Technologies</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         04. TECHNICAL SKILLS
+    ============================================================ -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label section-label--light"><span class="label-no">03</span> What I Work With</p>
+          <h2 class="section-title section-title--light">Technical Skills.</h2>
+        </header>
+
+        <div class="skill-groups">
+
+          <!-- Programming Languages -->
+          <div class="skill-group reveal">
+            <h3 class="skill-category">
+              <span class="category-no">PL</span> Programming Languages
+            </h3>
+            <div class="skill-list">
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">{</span>
+                <h4 class="skill-name">Java</h4>
+                <p class="skill-desc">General-purpose programming and backend logic.</p>
+              </article>
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">JS</span>
+                <h4 class="skill-name">JavaScript</h4>
+                <p class="skill-desc">Core language of the interactive web.</p>
+              </article>
+            </div>
+          </div>
+
+          <!-- Frontend -->
+          <div class="skill-group reveal">
+            <h3 class="skill-category">
+              <span class="category-no">FE</span> Frontend
+            </h3>
+            <div class="skill-list">
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">&lt;/&gt;</span>
+                <h4 class="skill-name">HTML</h4>
+                <p class="skill-desc">Semantic markup and structured content.</p>
+              </article>
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">CSS</span>
+                <h4 class="skill-name">CSS</h4>
+                <p class="skill-desc">Responsive layouts and modern styling.</p>
+              </article>
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">⚛</span>
+                <h4 class="skill-name">React</h4>
+                <p class="skill-desc">Component-based user interfaces.</p>
+              </article>
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">B</span>
+                <h4 class="skill-name">Bootstrap</h4>
+                <p class="skill-desc">Fast, grid-based responsive styling.</p>
+              </article>
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">T</span>
+                <h4 class="skill-name">Tailwind CSS</h4>
+                <p class="skill-desc">Utility-first styling approach.</p>
+              </article>
+            </div>
+          </div>
+
+          <!-- Backend -->
+          <div class="skill-group reveal">
+            <h3 class="skill-category">
+              <span class="category-no">BE</span> Backend
+            </h3>
+            <div class="skill-list">
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">N</span>
+                <h4 class="skill-name">Node.js</h4>
+                <p class="skill-desc">JavaScript-powered backend development.</p>
+              </article>
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">Ex</span>
+                <h4 class="skill-name">Express.js</h4>
+                <p class="skill-desc">Web application framework for Node.js.</p>
+              </article>
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">SB</span>
+                <h4 class="skill-name">Spring Boot</h4>
+                <p class="skill-desc">Production-ready Java backend framework.</p>
+              </article>
+            </div>
+          </div>
+
+          <!-- Database -->
+          <div class="skill-group reveal">
+            <h3 class="skill-category">
+              <span class="category-no">DB</span> Database
+            </h3>
+            <div class="skill-list">
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">{ }</span>
+                <h4 class="skill-name">MongoDB</h4>
+                <p class="skill-desc">Flexible, document-based NoSQL database.</p>
+              </article>
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">SQL</span>
+                <h4 class="skill-name">MySQL</h4>
+                <p class="skill-desc">Relational database management system.</p>
+              </article>
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">PG</span>
+                <h4 class="skill-name">PostgreSQL</h4>
+                <p class="skill-desc">Advanced open-source relational database.</p>
+              </article>
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skill-group reveal">
+            <h3 class="skill-category">
+              <span class="category-no">SO</span> Soft Skills
+            </h3>
+            <div class="skill-list">
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">PS</span>
+                <h4 class="skill-name">Problem Solving</h4>
+                <p class="skill-desc">Approaching challenges logically and methodically.</p>
+              </article>
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">TW</span>
+                <h4 class="skill-name">Teamwork &amp; Collaboration</h4>
+                <p class="skill-desc">Working effectively within teams and shared goals.</p>
+              </article>
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">CM</span>
+                <h4 class="skill-name">Communication</h4>
+                <p class="skill-desc">Sharing ideas clearly in technical and casual contexts.</p>
+              </article>
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">AD</span>
+                <h4 class="skill-name">Adaptability</h4>
+                <p class="skill-desc">Learning new tools and adjusting quickly.</p>
+              </article>
+              <article class="skill-card">
+                <span class="skill-mono" aria-hidden="true">TM</span>
+                <h4 class="skill-name">Time Management</h4>
+                <p class="skill-desc">Prioritizing tasks and delivering on schedule.</p>
+              </article>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         05. INTERNSHIP EXPERIENCE
+    ============================================================ -->
+    <section class="section experience" id="experience">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label"><span class="label-no">04</span> Experience</p>
+          <h2 class="section-title">Experience &amp; Internship.</h2>
+        </header>
+
+        <div class="timeline reveal">
+          <div class="timeline-rail" aria-hidden="true"></div>
+
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <span class="timeline-tag">Internship</span>
+              <h3 class="timeline-role">Software Reliability Testing Intern</h3>
+              <p class="timeline-company">Gilbarco Veeder-Root</p>
+              <p class="timeline-duration">30-Day Internship</p>
+              <ul class="timeline-points">
+                <li>Gained exposure to software reliability testing in a professional product environment.</li>
+                <li>Learned how engineering teams verify consistent software performance.</li>
+                <li>Strengthened debugging, testing and problem-solving fundamentals.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         06. PROJECTS
+    ============================================================ -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label"><span class="label-no">05</span> Case Studies</p>
+          <h2 class="section-title">Selected Projects.</h2>
+        </header>
+
+        <div class="project-list">
+
+          <!-- Project 01 — Featured -->
+          <article class="project project--featured reveal">
+            <figure class="project-visual">
+              <img
+                src="assets/project-1.png"
+                alt="Visual placeholder for the e-commerce website project"
+                class="project-img"
+              />
+              <span class="project-index" aria-hidden="true">01</span>
+              <span class="project-tag-featured">Featured Project</span>
+            </figure>
+            <div class="project-body">
+              <span class="project-status">MERN Stack</span>
+              <h3 class="project-title">E-Commerce Website</h3>
+              <p class="project-desc">
+                A fully functional e-commerce website built on the MERN stack &mdash;
+                covering the complete e-commerce workflow from product browsing to
+                order management, with a dedicated admin dashboard.
+              </p>
+              <div class="project-feature-block">
+                <h4 class="project-feature-title">Key Features</h4>
+                <ul class="feature-list">
+                  <li>Product browsing</li>
+                  <li>Product management</li>
+                  <li>Shopping functionality</li>
+                  <li>Admin dashboard</li>
+                  <li>Admin authentication</li>
+                  <li>Order management</li>
+                  <li>Complete e-commerce workflow</li>
+                </ul>
+              </div>
+              <div class="project-tech-block">
+                <h4 class="project-feature-title">Technologies</h4>
+                <ul class="project-tags" aria-label="Technologies">
+                  <li>MERN</li>
+                  <li>MongoDB</li>
+                  <li>Express.js</li>
+                  <li>React</li>
+                  <li>Node.js</li>
+                </ul>
+              </div>
+              <a
+                href="https://github.com/navvee77y6"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-outline btn-sm"
+              >View on GitHub</a>
+            </div>
+          </article>
+
+          <!-- Project 02 -->
+          <article class="project reveal">
+            <figure class="project-visual project-visual--alt">
+              <img
+                src="assets/project-2.png"
+                alt="Visual placeholder for the personal expense tracker project"
+                class="project-img"
+              />
+              <span class="project-index" aria-hidden="true">02</span>
+            </figure>
+            <div class="project-body">
+              <div class="project-head">
+                <span class="project-status">Personal Web Application</span>
+                <h3 class="project-title project-title--sm">Personal Expense Tracker</h3>
+              </div>
+              <p class="project-desc">
+                A personal application designed to help manage everyday finances &mdash;
+                tracking, organizing and monitoring expenses with a clear view of
+                financial records.
+              </p>
+              <div class="project-feature-block">
+                <h4 class="project-feature-title">Purpose</h4>
+                <ul class="feature-list">
+                  <li>Tracking personal expenses</li>
+                  <li>Organizing expenses</li>
+                  <li>Monitoring spending</li>
+                  <li>Managing financial records</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         07. EDUCATION
+    ============================================================ -->
+    <section class="section education" id="education">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label"><span class="label-no">06</span> Education</p>
+          <h2 class="section-title">Education.</h2>
+        </header>
+
+        <article class="education-card reveal">
+          <div class="edu-degree">
+            <span class="edu-line" aria-hidden="true"></span>
+            <span class="edu-yr">2023 &rarr; 2027</span>
+            <h3 class="edu-title">B.E. Electronics &amp; Communication Engineering</h3>
+          </div>
+          <div class="edu-meta">
+            <p class="edu-college">The Kavery Engineering College</p>
+            <p class="edu-note">Expected Graduation: 2027</p>
+            <p class="edu-note">Salem, Tamil Nadu, India</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         08. CERTIFICATIONS
+    ============================================================ -->
+    <section class="section cert" id="certification">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label"><span class="label-no">07</span> Certifications</p>
+          <h2 class="section-title">Certified &amp; Credentialed.</h2>
+        </header>
+
+        <div class="cert-grid">
+
+          <article class="cert-card reveal">
+            <div class="cert-seal" aria-hidden="true">
+              <span class="cert-star">&#10022;</span>
+            </div>
+            <div class="cert-copy">
+              <span class="cert-badge">Certification 01</span>
+              <h3 class="cert-title">MongoDB Certification</h3>
+              <p class="cert-desc">
+                Certified in MongoDB &mdash; document-based database fundamentals,
+                including data modelling and working with collections and documents.
+              </p>
+            </div>
+            <div class="cert-corner" aria-hidden="true"></div>
+          </article>
+
+          <article class="cert-card reveal">
+            <div class="cert-seal cert-seal--alt" aria-hidden="true">
+              <span class="cert-star">&#127891;</span>
+            </div>
+            <div class="cert-copy">
+              <span class="cert-badge">Certification 02</span>
+              <h3 class="cert-title">Certificate of Participation</h3>
+              <p class="cert-desc">
+                Innovation and Sustainability Workshop
+              </p>
+              <p class="cert-organizer">Organized by: AIC RAISE</p>
+            </div>
+            <div class="cert-corner" aria-hidden="true"></div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         09. DEVELOPMENT JOURNEY
+    ============================================================ -->
+    <section class="section journey" id="journey">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label section-label--light"><span class="label-no">08</span> How I Work</p>
+          <h2 class="section-title section-title--light">My Development Journey.</h2>
+        </header>
+
+        <ol class="journey-list">
+          <li class="journey-item reveal">
+            <span class="journey-no" aria-hidden="true">01</span>
+            <h3 class="journey-title">Learn</h3>
+            <p class="journey-desc">
+              Learning core web technologies and programming concepts.
+            </p>
+          </li>
+          <li class="journey-item reveal">
+            <span class="journey-no" aria-hidden="true">02</span>
+            <h3 class="journey-title">Build</h3>
+            <p class="journey-desc">
+              Building practical projects to apply technical knowledge.
+            </p>
+          </li>
+          <li class="journey-item reveal">
+            <span class="journey-no" aria-hidden="true">03</span>
+            <h3 class="journey-title">Test</h3>
+            <p class="journey-desc">
+              Improving reliability, debugging and problem-solving skills.
+            </p>
+          </li>
+          <li class="journey-item reveal">
+            <span class="journey-no" aria-hidden="true">04</span>
+            <h3 class="journey-title">Grow</h3>
+            <p class="journey-desc">
+              Continuously developing software and web development skills.
+            </p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         10. RESUME
+         NOTE: Replace assets/resume.pdf with your actual resume PDF.
+         The download button uses the 'download' attribute so it saves
+         the local PDF file instead of opening it.
+    ============================================================ -->
+    <section class="section resume" id="resume">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-label"><span class="label-no">09</span> Resume</p>
+          <h2 class="section-title">My Resume.</h2>
+        </header>
+        <p class="resume-subhead reveal">
+          Explore my education, technical skills, projects and professional experience.
+        </p>
+
+        <div class="resume-grid">
+
+          <!-- Left: professional profile -->
+          <div class="resume-profile reveal">
+            <h3 class="resume-profile-title">My Professional Profile</h3>
+            <p class="resume-profile-desc">
+              A B.E. Electronics and Communication Engineering student at
+              The Kavery Engineering College (graduating 2027) with an interest in
+              full-stack web development. My background includes a 30-day software
+              reliability testing internship at Gilbarco Veeder-Root, a MongoDB
+              certification, and hands-on project work across the MERN stack.
+            </p>
+            <ul class="resume-profile-list">
+              <li><span>Degree</span> B.E. Electronics &amp; Communication Engineering</li>
+              <li><span>College</span> The Kavery Engineering College</li>
+              <li><span>Internship</span> Software Reliability Testing Intern &mdash; Gilbarco Veeder-Root</li>
+              <li><span>Certification</span> MongoDB Certification</li>
+              <li><span>Focus</span> Full-Stack Development &amp; Software Technologies</li>
+            </ul>
+          </div>
+
+          <!-- Right: resume document card -->
+          <div class="resume-doc reveal">
+            <div class="resume-doc-head">
+              <span class="resume-doc-icon" aria-hidden="true">PDF</span>
+              <div class="resume-doc-meta">
+                <p class="resume-doc-name">S_Navaneethan_Resume.pdf</p>
+                <p class="resume-doc-size">Replace with your actual resume</p>
+              </div>
+              <span class="resume-doc-badge">PDF</span>
+            </div>
+
+            <div class="resume-doc-preview" aria-hidden="true">
+              <span class="preview-line preview-line--lg"></span>
+              <span class="preview-line"></span>
+              <span class="preview-line preview-line--sm"></span>
+              <span class="preview-rule"></span>
+              <span class="preview-line"></span>
+              <span class="preview-line preview-line--md"></span>
+              <span class="preview-line preview-line--sm"></span>
+              <span class="preview-line"></span>
+              <span class="preview-rule"></span>
+              <span class="preview-line preview-line--md"></span>
+              <span class="preview-line"></span>
+              <span class="preview-line preview-line--sm"></span>
+            </div>
+
+            <div class="resume-actions">
+              <a
+                href="assets/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-outline btn-sm"
+                aria-label="View resume in a new tab"
+              >View Resume</a>
+              <a
+                href="assets/resume.pdf"
+                download
+                class="btn btn-dark btn-sm"
+                aria-label="Download resume PDF"
+              >Download My Resume <span class="btn-icon" aria-hidden="true">&#8595;</span></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         11. CONTACT
+    ============================================================ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-banner reveal">
+          <p class="section-label"><span class="label-no">10</span> Get In Touch</p>
+          <h2 class="contact-title">Let's Connect.</h2>
+          <p class="contact-lede">
+            Have a project, opportunity, or idea? Let's connect.
+          </p>
+
+          <div class="contact-grid">
+            <div class="contact-channels">
+              <a class="contact-item" href="tel:+919361167337">
+                <span class="contact-key">Phone</span>
+                <span class="contact-val">+91 9361167337</span>
+              </a>
+              <a class="contact-item" href="mailto:naveenloki20235@gmail.com">
+                <span class="contact-key">Email</span>
+                <span class="contact-val">naveenloki20235@gmail.com</span>
+              </a>
+              <a
+                class="contact-item"
+                href="https://github.com/naveenloki2024-crypto"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="contact-key">GitHub</span>
+                <span class="contact-val">github.com/naveenloki2024-crypto</span>
+              </a>
+              <a
+                class="contact-item"
+                href="https://www.linkedin.com/in/navaneethan-s-530672307/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span class="contact-key">LinkedIn</span>
+                <span class="contact-val">navaneethan-s-530672307/</span>
+              </a>
+            </div>
+
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-row">
+                <label class="form-label" for="form-name">Name</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  id="form-name"
+                  name="name"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+              <div class="form-row">
+                <label class="form-label" for="form-email">Email</label>
+                <input
+                  class="form-input"
+                  type="email"
+                  id="form-email"
+                  name="email"
+                  placeholder="you@example.com"
+                  required
+                />
+              </div>
+              <div class="form-row">
+                <label class="form-label" for="form-message">Message</label>
+                <textarea
+                  class="form-input form-textarea"
+                  id="form-message"
+                  name="message"
+                  rows="4"
+                  placeholder="Tell me about your project or idea..."
+                  required
+                ></textarea>
+              </div>
+              <p class="form-error" id="form-error" role="alert" hidden></p>
+              <button type="submit" class="btn btn-dark form-submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================
+       12. FOOTER
+  ============================================================ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-name">S. Navaneethan</p>
+      <p class="footer-deg">B.E. Electronics and Communication Engineering</p>
+      <p class="footer-copy">&copy; 2026 S. Navaneethan. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
